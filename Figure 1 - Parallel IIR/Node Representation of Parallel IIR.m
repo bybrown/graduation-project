@@ -14,7 +14,7 @@ b2 = Node ('b2',0,1 ,@basic_buffer, {'b2'} ,{'num'});
 b0_hat = Node ('b0_hat',0,1 ,@basic_buffer, {'b0_hat'} ,{'num'});
 b1_hat = Node ('b1_hat',0,1 ,@basic_buffer, {'b1_hat'} ,{'num'});
 b2_hat = Node ('b2_hat',0,1 ,@basic_buffer, {'b2_hat'} ,{'num'});
-y = Node ('y',1,0,@basic_buffer, {'y'} ,{'num'}); %2 giriþ 4 çýkýþlý node
+y = Node ('y',1,0,@basic_buffer, {'y'} ,{'num'}); %2 giriÃ¾ 4 Ã§Ã½kÃ½Ã¾lÃ½ node
 
 % Circuit Declarations
 N1 = Node ('mul', 2,1 ,@basic_mul, {'n1_mul'} ,{'num'});
@@ -72,14 +72,14 @@ Node.connect (a2_hat,1,N10,2,0); %N10
 %Circuit Connections
 
 Node.connect (N6,1,N16,1,0);
-Node.connect (N10,1,N16,2,0); %en aþaðý kýsým, N16
+Node.connect (N10,1,N16,2,0); %en aÃ¾aÃ°Ã½ kÃ½sÃ½m, N16
 
 Node.connect (N16,1,N15,1,1);
 Node.connect (N5,1,N15,2,0);
 Node.connect (N9,1,N15,3,0); % N15
 
 Node.connect (N15,1,N14,1,1);
-Node.connect (N4,1,N14,2,0); % N14 ün çýkýþý N17 Ye girecek ---
+Node.connect (N4,1,N14,2,0); % N14 Ã¼n Ã§Ã½kÃ½Ã¾Ã½ N17 Ye girecek ---
  
 
 Node.connect (N3,1,N13,1,0);
