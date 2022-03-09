@@ -14,7 +14,7 @@ b2 = Node ('b2',0,1 ,@basic_buffer, {'b2'} ,{'num'});
 b0_hat = Node ('b0_hat',0,1 ,@basic_buffer, {'b0_hat'} ,{'num'});
 b1_hat = Node ('b1_hat',0,1 ,@basic_buffer, {'b1_hat'} ,{'num'});
 b2_hat = Node ('b2_hat',0,1 ,@basic_buffer, {'b2_hat'} ,{'num'});
-y = Node ('y',1,0,@basic_buffer, {'y'} ,{'num'}); %2 giriþ 4 çýkýþlý node
+y = Node ('y',1,0,@basic_buffer, {'y'} ,{'num'}); %2 giriÃ¾ 4 Ã§Ã½kÃ½Ã¾lÃ½ node
 
 % Circuit Declarations
 N1 = Node ('mul', 2,1 ,@basic_mul, {'n1_mul'} ,{'num'});
